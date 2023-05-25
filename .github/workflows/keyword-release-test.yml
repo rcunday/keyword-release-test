@@ -8,7 +8,7 @@ jobs:
     steps:
     - uses: actions/checkout@v3
     - uses: rcunday/keyword-release-action@main
-    env:
-      GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-    with:
-      args: FIXED
+      env:
+        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+      with:
+        args: FIXED
