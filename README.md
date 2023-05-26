@@ -2,5 +2,5 @@
 
 Test local repo CUSTOM ACTION: keyword-release-action.
 Change this file to trigger the local custom keyword-release-action.
-Change the content of this file. 
+Change this line and commit change to remote repo 
 ADD KEYWORD: FIXED in Commit message
