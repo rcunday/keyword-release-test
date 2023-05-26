@@ -2,6 +2,8 @@ name: keyword-release-test
 
 on: push
 
+permissions: write-all
+
 jobs:
   build:
     runs-on: ubuntu-latest
